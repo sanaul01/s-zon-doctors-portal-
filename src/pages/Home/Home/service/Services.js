@@ -32,12 +32,12 @@ const services=[
 
 const Services = () => {
     return (
-        <div className="my-8">
-            <div className="text-center">
+        <div className="my-28">
+            <div className="text-center my-20">
                 <h2 className="text-primary text-xl font-bold uppercase">Our Services</h2>
-                <h2 className="text-4xl">Services We Porvied</h2>
+                <h2 className="text-5xl">Services We Porvied</h2>
             </div>
-            <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-3">
+            <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-3 gap-3">
                {services.map(service => <Service
                     key={service.name}
                     service={service}
